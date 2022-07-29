@@ -7,9 +7,9 @@ export default defineNuxtConfig({
     '@nuxt/content',
     '@nuxtjs/tailwindcss',
     '@nuxtjs/color-mode',
-    '@pinia/nuxt',
     '@vueuse/nuxt'
-    // TODO: Consider using Plausible for analytics: 'vue-plausible'
+    // TODO: Consider adding store: '@pinia/nuxt',
+    // TODO: Consider privacy oriented analytics tools, i.e. Plausible ('vue-plausible') or Umami
   ],
   css: [
     '@/assets/css/main.css'

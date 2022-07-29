@@ -1,16 +1,15 @@
 
 # werner.best
 
-This is the code for building the Nuxt3 static website found at [werner.best](https://werner.best). 
-Based on the template made available at [Atinux/content-wind](https://github.com/Atinux/content-wind), utilizing [Nuxt Content](https://content.nuxtjs.org), [TailwindCSS](https://tailwindcss.com) and [Iconify](https://iconify.design).
+This is the code for building the static website found at [werner.best](https://werner.best). 
+The website uses Nuxt 3 and is based on the template made available at [Atinux/content-wind](https://github.com/Atinux/content-wind); utilizing [Nuxt Content](https://content.nuxtjs.org), [TailwindCSS](https://tailwindcss.com), and [Iconify](https://iconify.design).
 
 ## Setup
 
 Make sure to install the dependencies:
 
 ```bash
-# pnpm
-pnpm install --shamefully-hoist
+npm install
 ```
 
 ## Development Server

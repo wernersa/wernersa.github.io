@@ -13,4 +13,3 @@ dist
 *.env*
 
 *.log*
-pnpm-lock.yaml
