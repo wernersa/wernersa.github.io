@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@media screen(md) {
+  html {
+    /* Fix 'jumping scrollbar' issue using only CSS */
+    /* https://aykevl.nl/2014/09/fix-jumping-scrollbar */
+    margin-left: calc(100vw - 100%);
+  }
+}
+
+@layer base {
+  :root {
+    --shadow: 203 213 225;
+}
+
+.dark {
+    /* Dark mode scrollbar */
+    /* https://github.com/tailwindlabs/tailwindcss/discussions/6734 */
+  color-scheme: dark;
+  --shadow: 15 23 42;
+}
+}
+
+body {
+  @apply bg-gray-100 dark:bg-gray-900;
+}

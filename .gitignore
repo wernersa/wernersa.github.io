@@ -1,0 +1,14 @@
+# Exclude folders:
+node_modules
+temp
+dist
+.nuxt
+.nitro
+.cache
+.output
+
+# See dotenv documentation: https://cli.vuejs.org/guide/mode-and-env.html#environment-variables
+*.env*
+
+*.log*
+pnpm-lock.yaml
