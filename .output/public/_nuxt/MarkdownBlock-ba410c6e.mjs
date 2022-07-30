@@ -1,1 +1,0 @@
-import n from"./Markdown-73aa8e09.mjs";import{_ as r,o as t,c,b as a}from"./entry-0b1b2b61.mjs";const s={};function _(e,l){const o=n;return t(),c("pre",null,[a(o,{use:e.$slots.default,unwrap:"p"},null,8,["use"])])}var f=r(s,[["render",_]]);export{f as default};
