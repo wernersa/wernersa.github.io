@@ -7,7 +7,7 @@ export default defineNuxtConfig({
     baseURL: SITE_URL,
     cdnURL: `https://wernersa.github.io${SITE_URL}`,
   },
-  ssr: 'false',
+  ssr: false,
   target: 'static',
   modules: [
     '@nuxt/content',
