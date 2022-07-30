@@ -1,10 +1,11 @@
 import { defineNuxtConfig } from 'nuxt'
+const SITE_URL = '/werner.best/'
 
 // https://v3.nuxtjs.org/docs/directory-structure/nuxt.config
 export default defineNuxtConfig({
   app: {
-    baseURL: '/werner.best/',
-    //    cdnURL: 'https://wernersa.github.io/werner.best/',
+    baseURL: SITE_URL,
+    cdnURL: `https://wernersa.github.io${SITE_URL}`,
   },
   ssr: 'false',
   target: 'static',
