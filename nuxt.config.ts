@@ -3,11 +3,12 @@ const SITE_URL = '/werner.best/'
 
 // https://v3.nuxtjs.org/docs/directory-structure/nuxt.config
 export default defineNuxtConfig({
+  router: {base: "/werner.best/"},
   app: {
     baseURL: SITE_URL,
     cdnURL: `https://wernersa.github.io${SITE_URL}`,
   },
-  ssr: false,
+  ssr: true,
   target: 'static',
   modules: [
     '@nuxt/content',
