@@ -2,7 +2,10 @@ import { defineNuxtConfig } from 'nuxt'
 
 // https://v3.nuxtjs.org/docs/directory-structure/nuxt.config
 export default defineNuxtConfig({
-  cdnURL: 'https://wernersa.github.io/werner.best/',
+  app: {
+    baseURL: '/werner.best/',
+    //    cdnURL: 'https://wernersa.github.io/werner.best/',
+  },
   ssr: 'false',
   target: 'static',
   modules: [
