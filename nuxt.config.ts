@@ -2,6 +2,8 @@ import { defineNuxtConfig } from 'nuxt'
 
 // https://v3.nuxtjs.org/docs/directory-structure/nuxt.config
 export default defineNuxtConfig({
+  baseURL: '/werner.best/',
+  ssr: 'false',
   target: 'static',
   modules: [
     '@nuxt/content',
