@@ -1,15 +1,15 @@
 import { defineNuxtConfig } from 'nuxt'
-const SITE_URL = '/werner.best/'
+const SITE_URL = '/'
 
 // https://v3.nuxtjs.org/docs/directory-structure/nuxt.config
 export default defineNuxtConfig({
-  router: {base: "/werner.best/"},
-  app: {
-    baseURL: SITE_URL,
-    cdnURL: `https://wernersa.github.io${SITE_URL}`,
-  },
   ssr: true,
   target: 'static',
+  app: {
+    baseURL: SITE_URL,
+    cdnURL: `https://werner-best.onrender.com${SITE_URL}`,
+  },
+
   modules: [
     '@nuxt/content',
     '@nuxtjs/tailwindcss',
