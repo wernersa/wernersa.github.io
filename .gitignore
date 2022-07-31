@@ -5,9 +5,9 @@ dist
 .nuxt
 .nitro
 .cache
+.output
 
-.output/server/
-.output/nitro.json
+.vscode/ltex.dictionary.*
 
 # See dotenv documentation: https://cli.vuejs.org/guide/mode-and-env.html#environment-variables
 *.env*
