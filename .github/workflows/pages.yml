@@ -54,11 +54,13 @@ jobs:
       #   id: pages
       #   uses: actions/configure-pages@v1
       #   with:
-          # Automatically inject router.base in your Nuxt configuration file and set
-          # target to static (https://nuxtjs.org/docs/configuration-glossary/configuration-target/).
-          #
-          # You may remove this line if you want to manage the configuration yourself.
-          # static_site_generator: nuxt
+      #     # Automatically inject router.base in your Nuxt configuration file and set
+      #     # target to static (https://nuxtjs.org/docs/configuration-glossary/configuration-target/).
+      #     #
+      #     # You may remove this line if you want to manage the configuration yourself.
+      #     static_site_generator: nuxt
+      
+# TODO: Use caching on GitHub Actions:
       # - name: Restore cache
       #   uses: actions/cache@v3
       #   with:

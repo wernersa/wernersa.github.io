@@ -9,7 +9,9 @@ export default defineNuxtConfig({
     baseURL: SITE_URL,
     cdnURL: `https://wernersa.github.io${SITE_URL}`,
   },
-
+  generate: {
+    routes: ['/api/obfuscated']
+  },
   modules: [
     '@nuxt/content',
     '@nuxtjs/tailwindcss',
