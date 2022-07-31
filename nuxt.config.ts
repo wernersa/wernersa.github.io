@@ -10,6 +10,11 @@ export default defineNuxtConfig({
   generate: {
     routes: ['/api/obfuscated']
   },
+  nitro: {
+    prerender: {
+      routes: ['/404.html'] // Hacky way of rendering a static 404 error from the [slug].vue
+    }
+  },
   modules: [
     '@nuxt/content',
     '@nuxtjs/tailwindcss',
