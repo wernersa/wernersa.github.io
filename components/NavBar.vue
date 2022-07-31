@@ -2,7 +2,7 @@
 <script setup>
 import { unscramble } from 'botex'
 const key = import.meta.env.VITE_KEY
-const { data } = $fetch('/api/obfuscated')
+const { data } = await useFetch('/api/obfuscated', {server: false})
 
 function deObfuscate (encoded) {
   const unobfuscated = unscramble(encoded, key)
