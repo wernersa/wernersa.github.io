@@ -7,10 +7,10 @@
 
     <div class="space-y-6 gap-12 flex md:space-y-0 md:items-center">
       <div class="md:max-w-md prose lg:prose-lg prose-slate dark:prose-invert pl-5 ">
-        <h1 class="text-5xl tracking-wide font-bold !my-0">
+        <h1 class="text-4xl sm:text-5xl tracking-wide font-bold !my-0">
           Werner Sævland
         </h1>
-        <h2 class="text-4xl font-extralight text-slate-600 dark:text-slate-400 !mt-0 !mb-5">
+        <h2 class="tracking-tighter sm:tracking-normal text-3xl sm:text-4xl font-extralight text-slate-600 dark:text-slate-400 !mt-0 !mb-5">
           Psychologist in Singapore
         </h2>
         <p>
@@ -22,7 +22,6 @@
         <p>
           Please follow me on <a href="https://www.linkedin.com/in/werners/">LinkedIn</a>!
         </p>
-        <br><br>
       </div>
       <div class="hidden md:block md:w-5/12">
         <img src="/cutout.png" alt="portrait" loading="lazy" class="rounded" style="filter: drop-shadow(-3px 3px 3px rgba(var(--shadow)));">
