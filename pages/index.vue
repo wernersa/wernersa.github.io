@@ -24,7 +24,15 @@
         </p>
       </div>
       <div class="hidden md:block md:w-5/12">
-        <img src="/cutout.png" alt="portrait" loading="lazy" class="rounded" style="filter: drop-shadow(-3px 3px 3px rgba(var(--shadow)));">
+        <nuxt-img
+          format="webp"
+          src="/cutout.png"
+          alt="portrait"
+          class="rounded"
+          width="362"
+          height="737"
+          style="filter: drop-shadow(-3px 3px 3px rgba(var(--shadow)));"
+        />
       </div>
     </div>
   </div>
