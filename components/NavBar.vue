@@ -2,12 +2,13 @@
 <script setup>
 import { unscramble } from 'botex'
 const key = import.meta.env.VITE_KEY
-const obfuscated_data = await $fetch('/api/obfuscated', {server: false})
-const data = useState('data', () => obfuscated_data)
+
+const obfuscatedData = await $fetch('/api/obfuscated', { server: false })
+const data = useState('data', () => obfuscatedData) // Store the API call on Static site generation (SSG)
 
 function deObfuscate (encoded) {
   const unobfuscated = unscramble(encoded, key)
-  window.open(unobfuscated)
+  window.location.href = unobfuscated
 }
 </script>
 
@@ -31,7 +32,7 @@ function deObfuscate (encoded) {
 
     <!-- Social icons & Color Mode -->
     <div class="space-x-3 text-slate-500 transition">
-      <button aria-label="linkedin profile" class="inline-block" onClick="window.open(`https://www.linkedin.com/in/werners/`);">
+      <button aria-label="linkedin profile" class="inline-block" onClick="window.location.href = `https://www.linkedin.com/in/werners/`">
         <Icon name="ph:linkedin-logo" />
       </button>
       <button aria-label="contact on whatsapp" class="inline-block" @click="deObfuscate(data.obfuscatedPhone)">
