@@ -24,15 +24,14 @@
         </p>
       </div>
       <div class="hidden md:block md:w-5/12">
-        <nuxt-img
-          format="webp"
-          src="/cutout.png"
+        <img
+          src="/cutout.webp"
           alt="portrait"
           class="rounded"
           width="362"
           height="737"
           style="filter: drop-shadow(-3px 3px 3px rgba(var(--shadow)));"
-        />
+        >
       </div>
     </div>
   </div>
