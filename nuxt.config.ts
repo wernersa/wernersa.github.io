@@ -5,7 +5,7 @@ export default defineNuxtConfig({
   ssr: true,
   target: 'static',
   app: {
-    cdnURL: 'https://werner.best/'
+    cdnURL: 'https://www.werner.best/'
   },
   generate: {
     routes: ['/api/obfuscated']
