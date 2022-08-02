@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+
+# For potential future reference; see also https://en.wikipedia.org/wiki/Robots_exclusion_standard#Examples
+# User-agent: Googlebot
+# Disallow: /private/
