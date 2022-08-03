@@ -80,7 +80,7 @@ jobs:
       - name: CompressFiles
         uses: stefh/ghaction-CompressFiles@v2
         with:
-          path: ./dist
+          path: ./output/public
           extensions: '.js,.css,.html'
           tools: 'brotli,gzip'
       - name: Upload artifact
