@@ -64,20 +64,24 @@ jobs:
       #     # You may remove this line if you want to manage the configuration yourself.
       #     static_site_generator: nuxt
 
-# TODO: Use caching on GitHub Actions:
-      # - name: Restore cache
-      #   uses: actions/cache@v3
-      #   with:
-      #     path: |
-      #       dist
-      #       .nuxt
-      #     key: ${{ runner.os }}-nuxt-build-${{ hashFiles('dist') }}
-      #     restore-keys: |
-      #       ${{ runner.os }}-nuxt-build-
+      - name: Restore cache
+        uses: actions/cache@v3
+        with:
+          path: |
+            dist
+            .nuxt
+          key: ${{ runner.os }}-nuxt-build-${{ hashFiles('dist') }}
+          restore-keys: |
+            ${{ runner.os }}-nuxt-build-
       - name: Install dependencies
         run: ${{ steps.detect-package-manager.outputs.manager }} ${{ steps.detect-package-manager.outputs.command }}
       - name: Static HTML export with Nuxt
         run: ${{ steps.detect-package-manager.outputs.manager }} run generate
+      - name: Brotli compress the html, css and js files
+        id: brotli
+        uses: charlesworth/compress-action@1.0
+        with:
+          target-directory: 'dist'
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1
         with:
