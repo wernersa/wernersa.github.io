@@ -17,7 +17,6 @@ export default defineNuxtConfig({
   },
   modules: [
     '@nuxt/content',
-    '@nuxt/image-edge',
     '@nuxtjs/tailwindcss',
     '@nuxtjs/color-mode',
     '@vueuse/nuxt'
