@@ -77,12 +77,20 @@ jobs:
         run: ${{ steps.detect-package-manager.outputs.manager }} ${{ steps.detect-package-manager.outputs.command }}
       - name: Static HTML export with Nuxt
         run: ${{ steps.detect-package-manager.outputs.manager }} run generate
+<<<<<<< HEAD
       - name: CompressFiles
         uses: stefh/ghaction-CompressFiles@v2
         with:
           path: ./dist
           extensions: '.js,.css,.html'
           tools: 'brotli,gzip'
+=======
+      - name: Brotli compress the html, css and js files
+        id: brotli
+        uses: charlesworth/compress-action@1.0
+        with:
+          target-directory: 'dist'
+>>>>>>> 513b236b1001d3e6b97310b70409aaf34983b6e8
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1
         with:
