@@ -76,13 +76,11 @@ jobs:
       - name: Install dependencies
         run: ${{ steps.detect-package-manager.outputs.manager }} ${{ steps.detect-package-manager.outputs.command }}
       - name: Static HTML export with Nuxt
-        run: ${{ steps.detect-package-manager.outputs.manager }} run generate
-      - name: CompressFiles
-        uses: stefh/ghaction-CompressFiles@v2
+      #   run: ${{ steps.detect-package-manager.outputs.manager }} run generate
+      # - name: CompressFiles
+      - uses: preactjs/compressed-size-action@v2
         with:
-          path: ./output/public
-          extensions: '.js,.css,.html'
-          tools: 'brotli,gzip'
+          build-script: "generate"
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1
         with:
