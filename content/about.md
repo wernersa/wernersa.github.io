@@ -6,19 +6,19 @@ head.description: 'About the Singapore-based Norwegian psychologist, Werner Sæv
 #head.image: 'https://i.picsum.photos/id/866/536/354.jpg?hmac=tGofDTV7tl2rprappPzKFiZ9vDh5MKj39oa2D--gqhA'
 ---
 
-## About me
+## Professional approach and experience
 
-[I consider myself to be an especially open-minded, curious, and energetic person. I can become rebellious and stubborn when others tell me what I should and shouldn't do. I continuously strive to take better care of both myself and my loved ones.]{.lead}
-
-In my spare time, I enjoy diving/snorkeling, bouldering, and gaming. When working independently and trying to get work done I will repeatedly fall prey to distractions, and more often than I'd like to admit I stumble into some deep rabbit holes. I've got attention difficulties (ADD); searching for ways to optimize my productivity has ironically become the primary reason for my procrastinating tendencies.
-
-I live together with my two spoiled princesses, Melody, and Maki. After having lived together in Norway for four years we moved to Singapore. Singapore was the obvious choice for us both - Melody, who is Taiwanese, missed the Chinese cuisine, and I was eager to immerse myself in a new culture while still being able to work as a psychologist in English. I've been trying to learn and improve my Chinese on and off for years, but I couldn't express half of what I can comprehend when listening.
-
-### Professional experience and approach
+[I consider myself to be an especially open-minded, curious, and energetic person. I continuously strive to improve and become a better therapist.]{.lead}
 
 As a psychologist educated and licensed in Norway, I've spent several years working in Norway at mental health care polyclinics for children and adolescents. I've worked in teams specializing in assertively meeting the mental health needs of marginalized adolescents and their families.
 
 I appreciate collaborating with clients who experience difficulties in relationships with their peers or their close ones. After several sessions, several of my clients testify having a better understanding and control of their own emotions; feeling better equipped to face relational challenges, caring for themselves in more self-sustainable ways, and more constructively expressing their concerns and needs to their close ones.
+
+### Who am I
+
+In my spare time, I enjoy diving/snorkeling, bouldering, and gaming. I've got attention difficulties (ADD); searching for ways to optimize my productivity has ironically become the primary reason for my procrastinating tendencies.
+
+I live together with my two spoiled princesses, Melody, and Maki. After having lived together in Norway for four years we moved to Singapore. Singapore was the obvious choice for us both - Melody, who is Taiwanese, missed the Chinese cuisine, and I was eager to immerse myself in a new culture while still being able to work as a psychologist in English. I've been trying to learn and improve my Chinese on and off for years, but I couldn't express half of what I can comprehend when listening.
 
 ## About this website
 

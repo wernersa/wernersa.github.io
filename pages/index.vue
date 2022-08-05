@@ -17,7 +17,7 @@
           Hi and welcome to my website!
         </p>
         <p>
-          I'm a {{ calculateAge() }} year old Norwegian with a relentless curiosity about the world and the people in it. I can boast about having hitchhiked alone across the states, played over 2000 hours of video games, caught an angler fish with <span class="line-through">my bare hands</span> a knife, and taught university-level inferential statistics.
+          I'm a {{ calculateAge() }} year old Norwegian with a relentless curiosity about the world and the people in it. I can boast about having hitchhiked alone across the states, caught an angler fish with <span class="line-through">my bare hands</span> a knife, and taught university-level inferential statistics.
         </p>
         <p>
           Please follow me on <a href="https://www.linkedin.com/in/werners/">LinkedIn</a>!
