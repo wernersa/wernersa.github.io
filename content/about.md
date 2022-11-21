@@ -8,13 +8,15 @@ head.description: 'About the Singapore-based Norwegian psychologist, Werner Sæv
 
 ## Professional approach and experience
 
-[I consider myself to be an especially open-minded, curious, and energetic person. I continuously strive to improve and become a better therapist.]{.lead}
+[I consider myself to be a person who is open-minded, curious, and engaging. I continuously strive to improve and become a better therapist.]{.lead}
 
 As a psychologist educated and licensed in Norway, I've spent several years working in Norway at mental health care polyclinics for children and adolescents. I've worked in teams specializing in assertively meeting the mental health needs of marginalized adolescents and their families.
 
 I appreciate collaborating with clients who experience difficulties in relationships with their peers or their close ones. After several sessions, several of my clients testify having a better understanding and control of their own emotions; feeling better equipped to face relational challenges, caring for themselves in more self-sustainable ways, and more constructively expressing their concerns and needs to their close ones.
 
-### Who am I
+You can read more about me at [www.theotherclinic.sg](https://theotherclinic.sg/werner-saevland/)
+
+<!-- ### Who am I
 
 In my spare time, I enjoy diving/snorkeling, bouldering, and gaming. I've got attention difficulties (ADD); searching for ways to optimize my productivity has ironically become the primary reason for my procrastinating tendencies.
 
@@ -29,6 +31,6 @@ If you want to get notified of updates, you can press the bell symbol in the top
 **Why *.best* domain?** First and foremost, I wanted something memorable. I hope that you got a strong emotional reaction when reading [werner.best](http://werner.best). Be it surprise, pleasure, confusion, or resentment - Either way, your strong reaction will probably make you remember. Secondly, it's an opportunistic and calculated decision with the shameless aim toward ranking higher on search engines, like when potential clients search for "Best psychologist Singapore". Note, however, that I am by no means the best psychologist, but I do aspire to continuously improve and hone my skills. The final consideration for choosing a domain was the price, and as no one in their right mind would consider getting such a pretentious and self-glorifying domain, it was by far the cheaper option.
 
 ### Privacy notice
-This website is hosted for free using GitHub Pages. GitHub may collect information as part of this service. Currently, I have not implemented any analytics service for collecting information or tracking visitors to this site. I may implement this at a later stage.
+This website is hosted for free using GitHub Pages. GitHub may collect information as part of this service. Currently, I have not implemented any analytics service for collecting information or tracking visitors to this site. I may implement this at a later stage. -->
 
 <!-- TODO: Disclose information collection. I.e. analytics, hosting, and potential third-party scripts -->

@@ -14,13 +14,13 @@
           Psychologist in Singapore
         </h2>
         <p>
-          Hi and welcome to my website!
+          I'm a {{ calculateAge() }} year-old Norwegian with a relentless curiosity about the world and the people in it.
         </p>
         <p>
-          I'm a {{ calculateAge() }} year old Norwegian with a relentless curiosity about the world and the people in it. I can boast about having hitchhiked alone across the states, caught an angler fish with <span class="line-through">my bare hands</span> a knife, and taught university-level inferential statistics.
+          I can boast about having hitchhiked alone across the states, caught an angler fish with a knife, and taught university-level inferential statistics.
         </p>
         <p>
-          Please follow me on <a href="https://www.linkedin.com/in/werners/">LinkedIn</a>!
+          If you live in Singapore and would like to schedule a session with me, you can reach out to The Other Clinic by email at <a href="mailto:hello@theotherclinic.sg">hello@theotherclinic.sg</a> or through WhatsApp at <a href="https://wa.me/+6588090659?text=Hello. I found this link through Werner Sævland's website and would like to schedule a session any time soon. My name is _, and I would like to work on _">+65 8809 0659</a>!
         </p>
       </div>
       <div class="hidden md:block md:w-5/12">
