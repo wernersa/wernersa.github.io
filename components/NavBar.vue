@@ -32,13 +32,18 @@ function deObfuscate (encoded) {
 
     <!-- Social icons & Color Mode -->
     <div class="space-x-3 text-slate-500 transition">
-      <button aria-label="linkedin profile" class="inline-block" onClick="window.location.href = `https://www.linkedin.com/in/werners/`">
+      <button v-tooltip="{content:'Linkedin', distance: '16'}" aria-label="visit linkedin profile" class="inline-block" onClick="window.location.href = `https://www.linkedin.com/in/werners/`">
         <Icon name="ph:linkedin-logo" />
       </button>
-      <button aria-label="contact on whatsapp" class="inline-block" @click="deObfuscate(data.obfuscatedPhone)">
+      <button v-tooltip="{content:'Mastodon', distance: '16'}" aria-label="visit mastodon profile" class="inline-block">
+        <a rel="me" href="https://kopiti.am/@Wern">
+          <Icon name="ri:mastodon-line" />
+        </a>
+      </button>
+      <button v-tooltip="{content:'WhatsApp (Personal)', distance: '16'}" aria-label="contact Werner directly through WhatsApp" class="inline-block" @click="deObfuscate(data.obfuscatedPhone)">
         <Icon name="ph:whatsapp-logo" />
       </button>
-      <button aria-label="send email" class="inline-block" @click="deObfuscate(data.obfuscatedMail)">
+      <button v-tooltip="{content:'Email', distance: '16'}" aria-label="send Werner an e-Mail" class="inline-block" @click="deObfuscate(data.obfuscatedMail)">
         <Icon name="ph:envelope-simple-duotone" />
       </button>
       <ColorModeSwitch />

@@ -1,9 +1,7 @@
-import { defineNuxtConfig } from 'nuxt'
 
 // https://v3.nuxtjs.org/docs/directory-structure/nuxt.config
 export default defineNuxtConfig({
   ssr: true,
-  target: 'static',
   app: {
     cdnURL: 'https://www.werner.best/'
   },
@@ -20,6 +18,7 @@ export default defineNuxtConfig({
     '@nuxtjs/tailwindcss',
     '@nuxtjs/color-mode',
     '@vueuse/nuxt'
+    // TODO: Update after workaround fixed 'floating-vue/nuxt'
     // TODO: Consider adding store: '@pinia/nuxt',
     // TODO: Consider privacy oriented analytics tools, i.e. Plausible ('vue-plausible') or Umami
   ],
