@@ -25,7 +25,6 @@
   },
   "dependencies": {
     "@pinia/nuxt": "^0.1.9",
-    "@vueuse/nuxt": "^8.7.5",
-    "floating-vue": "^2.0.0-beta.20"
+    "@vueuse/nuxt": "^8.7.5"
   }
 }

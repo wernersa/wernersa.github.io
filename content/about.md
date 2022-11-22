@@ -14,7 +14,7 @@ As a psychologist educated and licensed in Norway, I've spent several years work
 
 I appreciate collaborating with clients who experience difficulties in relationships with their peers or their close ones. After several sessions, several of my clients testify having a better understanding and control of their own emotions; feeling better equipped to face relational challenges, caring for themselves in more self-sustainable ways, and more constructively expressing their concerns and needs to their close ones.
 
-You can read more about me at [www.theotherclinic.sg](https://theotherclinic.sg/werner-saevland/)
+You can read more about me at [theotherclinic.sg](https://theotherclinic.sg/werner-saevland/)
 
 <!-- ### Who am I
 

@@ -11,14 +11,14 @@ defineProps({
 })
 
 const colorMode = useColorMode()
-const onClick = () => (colorMode.value === 'light' ? (colorMode.preference = 'dark') : (colorMode.preference = 'light'))
+const alternateToggle = computed(() => (colorMode.value === 'light' ? 'dark' : 'light'))
 </script>
 
 <template>
-  <button aria-label="change color" class="inline-block" @click="onClick">
+  <button aria-label="change color" class="inline-block" title="Toggle dark-mode" @click="colorMode.preference = alternateToggle">
     <ColorScheme placeholder="...">
-      <Icon v-if="colorMode.value === 'dark'" v-tooltip.bottom="{content:'Dark mode', distance: '16'}" name="ph:moon-stars-fill" />
-      <Icon v-else v-tooltip="{content:'Light mode', distance: '16'}" name="ph:sun-dim-fill" />
+      <Icon v-if="colorMode.value === 'dark'" name="ph:moon-stars-fill" />
+      <Icon v-else name="ph:sun-dim-fill" />
     </ColorScheme>
   </button>
 </template>

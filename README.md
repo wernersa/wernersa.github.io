@@ -2,7 +2,7 @@
 # werner.best
 
 This is the code for building the static website found at [werner.best](https://werner.best). 
-The website uses Nuxt 3 and is based on the template made available at [Atinux/content-wind](https://github.com/Atinux/content-wind); utilizing [Nuxt Content](https://content.nuxtjs.org), [TailwindCSS](https://tailwindcss.com), [Iconify](https://iconify.design), and [Floating Vue](https://v-tooltip.netlify.app/).
+The website uses Nuxt 3 and is based on the template made available at [Atinux/content-wind](https://github.com/Atinux/content-wind); utilizing [Nuxt Content](https://content.nuxtjs.org), [TailwindCSS](https://tailwindcss.com), and [Iconify](https://iconify.design).
 
 ## Setup
 
