@@ -3,6 +3,17 @@
 export default defineNuxtConfig({
   ssr: true,
   app: {
+    // https://nuxt.com/docs/api/configuration/nuxt-config#head
+    head: {
+      script: [
+        // https://werner.goatcounter.com/
+        {
+          'data-goatcounter': 'https://werner.goatcounter.com/count',
+          async: true,
+          src: '//gc.zgo.at/count.js'
+        }
+      ]
+    },
     cdnURL: 'https://www.werner.best/'
   },
   generate: {
