@@ -11,16 +11,16 @@
           Werner Sævland
         </h1>
         <h2 class="tracking-tighter sm:tracking-normal text-3xl sm:text-4xl font-extralight text-slate-600 dark:text-slate-400 !mt-0 !mb-5">
-          Psychologist in Singapore
+          Singapore registered Psychologist
         </h2>
         <p>
           I'm a {{ calculateAge() }} year-old Norwegian with a relentless curiosity about the world and the people in it.
         </p>
         <p>
-          I can boast about having hitchhiked alone across the states, caught an angler fish with a knife, and taught university-level inferential statistics.
+          I can boast about having hitchhiked alone across the states, caught an angler fish with a knife, and taught university-level inferential statistics. I am currently residing in Taiwan and learning how to speak mandarin and write 繁體中文.
         </p>
         <p>
-          If you live in Singapore and would like to schedule a session with me, you can reach out to The Other Clinic by email at <a href="mailto:hello@theotherclinic.sg">hello@theotherclinic.sg</a> or through WhatsApp at <a href="https://wa.me/+6588090659?text=Hello. I found this link through Werner Sævland's website and would like to schedule a session any time soon. My name is _, and I would like to work on _">+65 8809 0659</a>!
+          If you live in Singapore and would like to schedule an online session with me, you can reach out to The Other Clinic by email at <a href="mailto:hello@theotherclinic.sg">hello@theotherclinic.sg</a>.
         </p>
       </div>
       <div class="hidden md:block md:w-5/12">
