@@ -17,7 +17,7 @@
           I'm a {{ calculateAge() }} year-old Norwegian with a relentless curiosity about the world and the people in it.
         </p>
         <p>
-          I can boast about having hitchhiked alone across the states, caught an angler fish with a knife, and taught university-level inferential statistics. I am currently residing in Taiwan and learning how to speak mandarin and write 繁體中文.
+          I can boast about having hitchhiked alone across the states, caught an angler fish with a knife, and taught university-level inferential statistics. I am currently residing in Taiwan and learning how to speak mandarin and write 正體中文.
         </p>
         <p>
           If you live in Singapore and would like to schedule an online session with me, you can reach out to The Other Clinic by email at <a href="mailto:hello@theotherclinic.sg">hello@theotherclinic.sg</a>.
