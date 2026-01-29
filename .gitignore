@@ -6,6 +6,7 @@ dist
 .nitro
 .cache
 .output
+.data
 
 .vscode/ltex.dictionary.*
 

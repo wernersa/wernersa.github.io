@@ -7,10 +7,10 @@
 
     <div class="space-y-6 gap-12 flex md:space-y-0 md:items-center">
       <div class="md:max-w-md prose lg:prose-lg prose-slate dark:prose-invert pl-5 ">
-        <h1 class="text-4xl sm:text-5xl tracking-wide font-bold !my-0">
+        <h1 class="text-4xl sm:text-5xl font-bold !my-0">
           Werner Sævland
         </h1>
-        <h2 class="tracking-tighter sm:tracking-normal text-3xl sm:text-4xl font-extralight text-slate-600 dark:text-slate-400 !mt-0 !mb-5">
+        <h2 class="tracking-tighter text-2xl sm:text-3xl font-extralight text-slate-600 dark:text-slate-400 !mt-0 !mb-5">
           Singapore registered Psychologist
         </h2>
         <p>
